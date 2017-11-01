@@ -8,7 +8,8 @@ import lombok.extern.slf4j.Slf4j;
 public class Application {
 
 	public static void main(String[] args) {
-		LOG.debug("test");
+		System.out.println("test");
+		log.debug("test");
 	}
 
 }
